@@ -1,0 +1,11 @@
+este implementación nos da a entender que debe retornar el interés desde la clase FuncionesGenericas:
+
+public static Double calcularInteres(Double capital, Date fechaInicial, Date fechaFinal){
+    Double interes=(double) 0;
+    FuncionesGenericas.obtenerInteres(capital,fechaInicial, fechaFinal);
+    return interes;
+}
+
+pero el valor retornado por el método siempre es 0.0D debido a que declara el valor y lo inicializa y lo
+devuelve tal cual lo inicializó sin modificarlo por la clase FuncionesGenericas.
+
